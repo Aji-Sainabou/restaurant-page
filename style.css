@@ -375,24 +375,19 @@ p {
   margin: 2rem;
 }
 .map-container {
-  flex-basis: 50%;
-  height: 600px;
+  flex-basis: 100%;
   position: relative;
-  overflow: hidden;
-  margin-top: 50px;
-}
 
-.map {
   width: 100%;
 }
 
 .form-container {
-  flex-basis: 50%;
+  flex-basis: 100%;
   padding: 50px;
 }
 
 form {
-  max-width: 400px;
+  width: 100%;
   margin: auto;
 }
 
@@ -420,6 +415,7 @@ input[type="submit"] {
   color: white;
   font-weight: bold;
   cursor: pointer;
+  border: none;
 }
 
 input[type="submit"]:hover {
