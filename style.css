@@ -326,12 +326,16 @@ header {
   color: white;
   border-radius: 10px;
 }
+.team {
+  background-color: rgb(255, 81, 0);
+  color: white;
+}
 
 .team h2 {
   font-size: 70px;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(2, 2, 17);
+
   font-family: "Bebas Neue", "Times New Roman", Times, serif;
   margin: 2rem;
 }
@@ -363,11 +367,12 @@ p {
 .contact h2 {
   font-size: 70px;
   text-align: center;
-
+  /* text-shadow: 0 0 1rem rgba(0, 0, 0, 0.9); */
   text-transform: uppercase;
   color: rgb(2, 2, 17);
-
+  /* font-weight: 800; */
   font-family: "Bebas Neue", "Times New Roman", Times, serif;
+  margin: 2rem;
 }
 .map-container {
   flex-basis: 50%;
