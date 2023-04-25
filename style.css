@@ -534,6 +534,7 @@ footer img {
   width: 40px;
   height: 20px;
 }
+
 @media screen and (max-width: 767px) {
   .navbar {
     flex-direction: column;
@@ -556,10 +557,6 @@ footer img {
     display: none;
   }
 
-  .toggle div {
-    margin: 5px;
-  }
-
   .hero-box {
     width: 100%;
     text-align: center;
@@ -570,7 +567,8 @@ footer img {
   }
 
   .hero-box p {
-    width: 90%;
+    width: 100%;
+    text-align: center;
   }
 
   .info {
@@ -587,12 +585,13 @@ footer img {
     font-size: 50px;
   }
   .menu-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    width: 100%;
+    display: block;
   }
 
   .menu-container {
     width: 100%;
+    margin-bottom: 10px;
   }
 
   .price {
@@ -610,12 +609,48 @@ footer img {
   .form-container {
     display: none;
   }
-  footer .col-sm-4 {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 10px;
+  footer .container {
+    margin-left: 0;
   }
+  footer .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   footer h3 {
-    padding-right: 20px;
+    margin-bottom: 10px;
+  }
+  footer .col-sm-4 {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .info {
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .info-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .info-box img {
+    display: block;
+    margin: 0 auto;
+  }
+  .menu-heading {
+    font-size: 50px;
+  }
+  .menu-grid {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .menu-container {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
